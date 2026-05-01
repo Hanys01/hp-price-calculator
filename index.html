@@ -21,7 +21,7 @@
         <div class="kotak-harga">
           
           <label for="label-harga"></label>
-          <input type="number" id="input-harga" placeholder="Contoh: 2.500.000">
+          <input type="text" id="input-harga" placeholder="Contoh: 2.500.000">
             <div class="rp">Rp</div>
             </div>
             
@@ -47,67 +47,67 @@
         <button type="button" class="tombol-hitung" onclick="hitungTotal()">HITUNG TOTAL</button>
         </div>
       </div>
-      
+      )
       
       <div class="kotakC">
         <div class="sub-kotakC">
           <div class="rincian-pembayaran">RINCIAN PEMBAYARAN</div>
           
           <div class="item1">
-            <div class="item2">
+            <div class="item1a" id="tampilan-harga">
             <img src="ikon-harga.jpg" class="ikon-hasil">
-            <div class="item3">
-            <p class="nama">Harga Awal</p>
+            <div class="harga-awal">
+            <p class="nama1">Harga Awal</p>
             </div>
           </div>
+          <div class="tampilanab1"></div>
           <div class="rpharga">Rp 0</div>
           </div>
           
           <div class="item1">
-            <div class="item2">
+            <div class="item1b">
             <img src="ikon-diskon.jpg" class="ikon-hasil">
-            <p class="nama">Diskon</p>
+            <p class="nama2">Diskon</p>
           </div>
+          <div class="tampilanab2"></div>
           <div class="rpdiskon">- Rp 0</div>
           </div>
           
           <div class="item1">
-            <div class="item2">
+            <div class="item1c">
             <img src="ikon-voucer.jpg" class="ikon-hasil">
-            <p class="nama">Voucer</p>
+            <p class="nama3">Voucer</p>
           </div>
+          <div class="tampilanab3"></div>
           <div class="rpvoucer">- Rp 0</div>
           </div>
           
           <div class="item1">
-            <div class="item2">
+            <div class="item1d">
             <img src="ikon-pajak.jpg" class="ikon-hasil">
-            <p class="nama">Voucer</p>
+            <p class="nama4">Pajak</p>
           </div>
+          <div class="tampilanab4"></div>
           <div class="rppajak">+ Rp 0</div>
           </div>
           
-          <div class="item1">
-            <div class="item2">
+          <div class="item3">
+            <div class="item1e">
             <img src="ikon-admin.jpg" class="ikon-hasil">
-            <p class="nama">Diskon</p>
+            <p class="nama5">Admin</p>
           </div>
+          <div class="tampilanab5"></div>
           <div class="rpadmin">+ Rp 0</div>
           </div>
           
           <div class="total-akhir">
-            <div class="item2">
-            <p class="nama">TOTAL AKHIR</p>
+            <div class="item1f">
+            <p class="nama6"> TOTAL AKHIR</p>
           </div>
-          <div class="rpadmin">Rp 0</div>
+          <div class="tampilanab6"></div>
+          <div class="totalakhir">Rp 0</div>
           </div>
-         
-          
 
-              
-           
-          
-          
           
         </div>
         
@@ -117,11 +117,7 @@
 
 
 
-
-
-
-
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
-!-- update -->
